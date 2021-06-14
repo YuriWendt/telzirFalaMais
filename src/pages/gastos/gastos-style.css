@@ -1,0 +1,135 @@
+body {
+    background: url("img/backgroundB") no-repeat fixed center center;
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .anim-enter {
+    opacity: 0.01;
+  }
+   
+  .anim-enter.anim-enter-active {
+    opacity: 2;
+    transition: opacity 5s ease-in;
+  }
+
+  .leave {
+      opacity: 2;
+  }
+
+  .leave .leave-active {
+    opacity: 2;
+    transition: opacity 5s ease-in;
+  }
+
+
+.bg-header-gastos {
+    background: #fff;
+}  
+
+.header-menu-gastos {
+    width: 280px;
+    padding-top: 15px; 
+    float: right;
+  }
+
+
+.header-menu-gastos ul {
+    margin: 0;
+    padding:0;
+}
+
+.header-menu-gastos ul li {
+    list-style: none;
+    color: #000;
+    font-size:14px;
+    display:inline-block;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding:10px;
+}
+
+.pesquisa {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #0d1821, #344966);
+}
+
+.btn-busca {
+    border: 3px solid #227cc2;
+    color:#227cc2;
+    background:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 5px 8px;
+    width: 170px;
+  
+}
+
+.btn-busca:hover {
+    background:#227cc2;
+    color:#fff;
+}
+
+.result-gastos {
+    width: 345px;
+}
+
+.result-gastos h3 {
+    color:#fff;
+    font-weight: bold;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-gastos .card-header {
+    background:#227cc2;
+
+}
+.result-gastos .card-body {
+    padding-top: 5px;
+    padding-bottom: 0; 
+}
+
+.result-gastos ul {
+    padding: 0;
+}
+
+.result-gastos ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.result-gastos ul li span {
+
+    color:#227cc2;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .bg-size-mobile {
+        height: 120px;
+    }
+
+    .header-menu-gastos {
+        padding-top: 0;
+        width: 90px;
+    }
+
+    .header-menu-gastos ul li {
+        display:block;
+    }
+    
+    .result-gastos {
+        width: 100%;
+    }
+
+}
