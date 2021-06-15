@@ -6,9 +6,9 @@ Este projeto feito em ReactJs foi inicializado com o [Create React App]🔗(http
 
 ## Precisa ter para rodar
 
-https://img.shields.io/badge/node-v10.15.1-success
-https://img.shields.io/badge/docker-v1.29-blueviolet
-https://img.shields.io/badge/npm-v6.4.1-red
+![BADGE](https://img.shields.io/badge/node-v10.15.1-success)
+![BADGE](https://img.shields.io/badge/docker-v1.29-blueviolet)
+![BADGE](https://img.shields.io/badge/npm-v6.4.1-red)
 
 ## Rodar com Docker
 
