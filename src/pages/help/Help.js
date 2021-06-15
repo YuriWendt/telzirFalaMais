@@ -8,7 +8,7 @@ const Help = () => (
     <div className="bg-help">
 
         <header className="container-fluid bg-header-help bg-size-mobile">
-            <Link to="/"><img src={imgLogo} alt="logo-telzir" /></Link>
+            <Link to="/"><img src={imgLogo} alt="logo-telzir" />Telzir</Link>
             <div className="header-menu-help">
                 <ul>
                     <li><Link to="/">Início</Link></li>

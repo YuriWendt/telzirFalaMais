@@ -61,7 +61,7 @@ export default class Gastos extends Component {
         return ([
 
             <header className="container-fluid bg-header-gastos bg-size-mobile">
-                <Link to="/"><img src={imgLogo} alt="logo" /></Link>
+                <Link to="/"><img src={imgLogo} alt="logo" />Telzir</Link>
                 <div className="header-menu-gastos">
                     <ul>
                         <li><Link to="/">Início</Link></li>

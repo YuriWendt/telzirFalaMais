@@ -62,6 +62,7 @@ header {
 }
 
 .btn-busca {
+    margin-top: 25px;
     border: 3px solid #227cc2;
     color:#227cc2;
     background:none;

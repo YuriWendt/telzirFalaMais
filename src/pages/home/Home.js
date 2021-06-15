@@ -10,14 +10,7 @@ const Home = () => (
         <header className="container-fluid bg-header-home">
 
             <Link to="/"><img src={ImgLogo} alt="Logo" />Telzir</Link>
-            <div className="header-menu-home">
-                
-                <ul>
-                    <li><Link to="/help">Saiba Mais</Link></li>
-                    
-                </ul>
-                
-            </div>
+
 
         </header>
 
@@ -27,7 +20,7 @@ const Home = () => (
                     <div className="introducao text-center p-5">
                         <h1>Plano Fale Mais</h1>
                         <Link to="/gastos" className="btn-introducao btn-calcule" role="button">Calcule Aqui</Link>
-                        <Link to="/help" className="btn-introducao btn-ajuda" role="button">    Saber Mais</Link>
+                        <Link to="/help" className="btn-introducao btn-ajuda" role="button">Saiba Mais</Link>
                     </div>
                 </div>
             </div>

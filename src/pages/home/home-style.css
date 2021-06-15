@@ -17,23 +17,6 @@ html, body, #root {
     background: white;
 }
 
-.header-menu-home {
-    width: 300px;
-    padding-top: 15px; 
-    float: right;
-}
-
-.header-menu-home ul {
-    margin: 0;
-    padding:0;
-}
-
-.header-menu-home ul li {
-    list-style: none;
-    letter-spacing: .1em;
-}
-
-
 .introducao {
     width: 850px;
     margin: 70px auto 0 auto;
